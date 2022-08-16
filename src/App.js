@@ -1,7 +1,6 @@
 import React from 'react';
 import Page from './Page';
 import { Routes, Route, NavLink as Link } from 'react-router-dom';
-import image from './smiley-flower.png';
 import About from './About';
 import Experience from './Experience';
 import Contact from './Contact';
@@ -23,13 +22,13 @@ function App() {
     <div style={{ width: "100vw", height: "100vh" }}>
       {(isMobile) ?
         <div className="nav-mobile" style={{textAlign:"center"}} > 
-           <img src={image} className="App-logo" alt="logo" />
+           <img src={process.env.PUBLIC_URL +'/smiley-flower.png'} className="App-logo" alt="logo" />
         <Navbar />
         </div> :
         <nav>
           <ul>
             <li>
-              <img src={image} className="App-logo" alt="logo" />
+              <img src={process.env.PUBLIC_URL +'/smiley-flower.png'} className="App-logo" alt="logo" />
             </li>
             <li>
               <Link to="/" activeClassName="active" end>Home</Link>

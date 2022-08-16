@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/personal-webpage/static/css/main.b40763e7.css",
-    "main.js": "/personal-webpage/static/js/main.00211d20.js",
+    "main.js": "/personal-webpage/static/js/main.8e2bec80.js",
     "static/media/mlh-logo.png": "/personal-webpage/static/media/mlh-logo.0e923e77989ecd444107.png",
     "index.html": "/personal-webpage/index.html",
     "main.b40763e7.css.map": "/personal-webpage/static/css/main.b40763e7.css.map",
-    "main.00211d20.js.map": "/personal-webpage/static/js/main.00211d20.js.map"
+    "main.8e2bec80.js.map": "/personal-webpage/static/js/main.8e2bec80.js.map"
   },
   "entrypoints": [
     "static/css/main.b40763e7.css",
-    "static/js/main.00211d20.js"
+    "static/js/main.8e2bec80.js"
   ]
 }

@@ -19,7 +19,7 @@ function App() {
   const isMobile = useIsMobile()
 
   return (
-    <div style={{ width: "100vw", height: "100vh" }}>
+    <div style={{ width: "100%", height: "100%" }}>
       {(isMobile) ?
         <div className="nav-mobile" style={{textAlign:"center"}} > 
            <img src={process.env.PUBLIC_URL +'/smiley-flower.png'} className="App-logo" alt="logo" />

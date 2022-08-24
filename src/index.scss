@@ -36,18 +36,7 @@ h1 {
     z-index: -10;
 }
 
-footer{
-  background-color:#fcebea;
-  text-align: center;
-  font-size: 14px ;  
-	font-weight: 15;
-  padding: 25px;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  height: 2px;
-  width: 100%;
-}
+
 
 nav ul {
   display: flex;
@@ -121,9 +110,15 @@ nav a.active {
 
 footer{
   text-align: center;
-  font-size: large;
-  font-weight: 30px;
+  font-size: 14px;
+  background-color: #fcebea;
+  text-align: center;
   color: purple;
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+  padding: 12px 0px 12px 0px;
+  vertical-align: middle;
 }
 
 .about{
@@ -276,7 +271,5 @@ h4 {
   position: absolute;
   top: 24px;
   left: 25px;
-  
- 
 }
 
